@@ -1,0 +1,95 @@
+h1{
+    color:rebeccapurple;
+    height: 70px;
+    font-family:Abril Fatface, serif;
+  
+    font-size:35px;
+    text-decoration: dashed;
+   
+
+   
+    padding: 8px;
+
+
+
+}
+#number{
+    border-radius: 10px;
+    width:28vh;
+    height:22px;
+    padding:5px;
+    border-color: darkmagenta;
+    border-width:3px ;
+    text-align: center;
+    color:blueviolet;
+    font-size: larger;
+  
+}
+#color{
+    border-radius: 6px;
+    height:66px;
+    padding:9px;
+    width:22em;
+    border-width: 12px;
+    border-color: darkmagenta;
+    font-variant: small-caps;
+    outline-color: blueviolet;
+    color:blueviolet;
+  
+  
+    
+
+     }
+     .container{
+        display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 150vh;
+  width: 100%;
+
+
+ background-image: url("https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTkzODAzNTgyODUxMDY1MzI4/cool-css-backgrounds.webp");
+  outline: #4CAF50 solid 10px;
+  
+ 
+     }
+
+     fieldset{
+        border-width: 5px;
+        padding: 100px;
+        border-radius: 20px;
+        margin:20px;
+        background-attachment: fixed;
+        background-color:bisque;
+        opacity: 5px;
+        border-color: blueviolet;
+        outline: #4CAF50 solid 10px;
+     }
+placeholder{
+    color:blueviolet;
+}
+     
+#hello{
+    text-align:center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  border:3px dotted;
+  padding:8px;
+  height:3vh;
+  border-color:blueviolet;
+    background-color:darkblue;
+}
+
+#error{
+    color:red;
+    font-size: medium;
+   
+}
+#success{
+    color:green;
+    font-size: medium;
+}
