@@ -1,0 +1,70 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM Machine</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javas.js"></script>
+</head>
+<body>
+    <div class="container">
+
+   
+    <form  name="regform" method="get" action="#">    
+    <h1>ATM</h1>
+   
+        <div>
+            <label for="uname">Enter Your Name</label><br>
+            <input type="text" name="uname" id="uname" required>
+             <p id="error" class="error"></p>
+             <p id="success"  class="success"></p>
+           
+        </div>
+        
+        <div>
+            <label for="acnum">Account Number</label><br>
+            <input type="text" name="acnum" id="acnum" maxlength="5" required>
+            <p id="error1" class="error"></p>
+            <p id="success1" class="success"></p>
+        </div>
+     
+        <div>
+            <label for="pin">Enter Your Pin</label><br>
+            <input type="text" name="pin" id="pin" maxlength="4"required >
+            
+        <p id="error2" class="error"></p>
+        <p id="success2" class="success"></p><br>
+        </div>
+        
+        <div>
+            <label id="">Choose Transaction</label><br><br>
+            <input type="radio" id="withdraw" name="Button" value="withdraw">
+            <label for="withdraw">Withdraw</label><br>
+            <input type="radio" id="Deposit" name="Button" value="deposit">
+            <label for="Deposit">Deposit</label><br>
+          
+</div><br>
+
+<div>
+    <label for="withd">Enter Withdraw Amount </label><br>
+    <input type="text" name="withd" id="withd" maxlenth="4">
+    <p id="error3" class="error"></p>
+</div><br>
+<div>
+    <label for="dep">Enter Deposit Amount</label><br>
+    <input type="text" name="dep" id="dep" maxlength="4">
+    <p id="error4" class="error"></p></div>
+<br><br>
+<div><button type="submit" id="reg" onclick="return Atmfun()">Submit</button></div><br>
+<div id="display1"></div>
+<div id="display"></div>
+       
+
+    </form>
+
+</div>
+</body>
+</html>

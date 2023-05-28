@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Student Details</h1>
+  <div class="container">
+  
+    <table id="myTable" border="2"  contenteditable="true">
+        
+            <tr id="head">
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>COLLEGE NAME</th>
+                <th>DEGREE</th>
+                <th>ADDRESS</th>
+              </tr> 
+        
+</table>
+<br>
+ 
+  <input type="button" id="add" value="Add" onclick="addfun()">
+
+<br><br>  <div ondblclick="addfun()">
+    <input type="text" id="Name" placeholder="Name">
+    <input type="text" id="age" placeholder="Age">
+    <input type="text" id="clg" placeholder="College">
+    <input type="text" id="degree" placeholder="Degree" >
+    <input type="text" id="address" placeholder="Address">
+
+ 
+
+</div>
+
+<p id="demo" style="display:none"></p>
+</div>  
+
+<script src="script.js"></script>
+    
+</body>
+</html>

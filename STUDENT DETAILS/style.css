@@ -1,0 +1,75 @@
+h1{
+    
+}
+.container{
+    margin-left: 15%;
+    margin-top: 8%;
+  }
+
+  table, th, td {
+    border: 1px solid;
+border-collapse: collapse;
+padding: 10px 35px;
+border-color:#787878;
+border-width: 2px;
+
+}
+th{
+    background-color:black;
+    color:aquamarine;
+    border-color:black;
+    border-width: 2px;
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+    background-color:blue;
+    border-color:black;
+    padding:5px 15px;
+    color:gray;
+    font-weight: bold;
+    font-size: 15px;
+    outline-color: red;
+    border-width: 2px;
+    border-radius: 5px;
+    box-shadow: grey;
+
+}
+td{
+    background-color:green;
+    border-color:black;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:orangered;
+    box-shadow: 2px 2px grey;
+}
+#add{
+    border-color:black;
+    padding:5px 25px;
+    border-width:2px;
+    background-color: black;
+    color:aqua;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+input{
+    border-color:black;
+    outline-color:rgba(0, 0, 255, 0.535);
+    background-color: grey;
+    padding:4px;
+    border-width: 2px;
+    color:darkred;
+    font-size: 16px;
+}
+h1{
+    text-align: center;
+    color:chocolate;
+}
+
+body{
+    background-image: url("https://thumbs.gfycat.com/BronzeIllFlyingfish.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
